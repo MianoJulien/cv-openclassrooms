@@ -4,16 +4,38 @@ body {
   height: 100vh;
   background: url(./Photo/background.png) no-repeat center/cover;
   font-family: "EB Garamond", serif;
+  display: flex;
 }
 
 h1 {
   color: rgb(145, 85, 25);
-  text-align: right;
+  text-align: center;
   text-shadow: 3px 3px 4px black;
+  font-size: 3rem;
+}
+
+.lisere {
+  width: 1000px;
+  background: rgba(15, 15, 15, 0.459);
+  border-radius: 10px;
+}
+
+.lisere p {
+  text-align: justify;
+  margin: 20px;
+}
+
+.cv-box {
+  display: flex;
+}
+.colone {
+  width: 33%;
+  margin: 20px;
 }
 
 p {
   font-size: 1.3em;
+  text-align: justify;
 }
 
 p em {
@@ -22,10 +44,13 @@ p em {
 
 h2 {
   text-decoration: underline;
+  font-size: 2rem;
 }
 
 img {
   border-radius: 300px;
+  display: block;
+  margin: auto;
 }
 
 li {
