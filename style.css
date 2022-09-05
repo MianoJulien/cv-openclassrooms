@@ -1,10 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
 
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   height: 100vh;
   background: url(./Photo/background.png) no-repeat center/cover;
   font-family: "EB Garamond", serif;
   display: flex;
+  height: 100vh;
 }
 
 h1 {
@@ -12,11 +17,13 @@ h1 {
   text-align: center;
   text-shadow: 3px 3px 4px black;
   font-size: 3rem;
+  margin: 20px;
 }
 
 .lisere {
   width: 1000px;
   background: rgba(15, 15, 15, 0.459);
+  margin: 10px;
   border-radius: 10px;
 }
 
@@ -36,6 +43,7 @@ h1 {
 p {
   font-size: 1.3em;
   text-align: justify;
+  margin-top: 20px;
 }
 
 p em {
@@ -50,9 +58,11 @@ h2 {
 img {
   border-radius: 300px;
   display: block;
-  margin: auto;
+  margin: 20px auto;
 }
-
+ol {
+  margin: 20px;
+}
 li {
   font-size: 1.3em;
 }
