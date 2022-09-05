@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+
+body {
+  height: 100vh;
+  background: url(./Photo/background.png) no-repeat center/cover;
+  font-family: "EB Garamond", serif;
+}
+
+h1 {
+  color: rgb(145, 85, 25);
+  text-align: right;
+  text-shadow: 3px 3px 4px black;
+}
+
+p {
+  font-size: 1.3em;
+}
+
+p em {
+  color: red;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+img {
+  border-radius: 300px;
+}
+
+li {
+  font-size: 1.3em;
+}
